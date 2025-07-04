@@ -1,7 +1,7 @@
 import FadeInWhenVisible from "./components/FadeEffects";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import Navbar from "./components/navbar";
+import Navbar from './components/Navbar'
 import PerksAndBenefits from "./components/PerksAndBenefits";
 import ValuesSlider from "./components/ValueSlider";
 import WhyJoinUs, {
@@ -13,7 +13,7 @@ import ZigzagSection from "./components/ZigzagSection";
 function App() {
   return (
     <>
-      <Navbar />
+     <Navbar/>
       <FadeInWhenVisible>
         <Hero />
       </FadeInWhenVisible>
