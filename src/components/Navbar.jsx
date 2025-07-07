@@ -642,15 +642,15 @@ const Navbar = () => {
                                     {title}
                                   </p> */}
                                   {items.map((item, i) => (
-                                    <div key={i} className="">
+                                    <div key={i} className="mb-1">
                                       <a
                                         href={item.href || "#"}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className={`${
                                           scrolled
-                                            ? "bg-[#f9f3e9] text-black"
-                                            : "bg-transparent text-white"
+                                            ? "bg-[#f9f3e9] text-[#000000ad]"
+                                            : "bg-transparent text-[#fff9]"
                                         } font-semibold uppercase`}
                                       >
                                         {item.label}
