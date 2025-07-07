@@ -503,7 +503,7 @@ const Navbar = () => {
       onMouseLeave={() => setHoveredMenu(null)}
     >
       <nav className="flex items-center justify-between px-6 py-4">
-        <div className="text-xl font-bold">WORKFORCE</div>
+        <div className="text-xl font-bold"><a href="https://workforce-livid.vercel.app/">WORKFORCE</a></div>
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex gap-6">
